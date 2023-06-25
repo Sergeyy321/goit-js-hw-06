@@ -1,3 +1,4 @@
+
 const formEl = document.querySelector('.login-form')
 
 
@@ -19,5 +20,4 @@ password:password.value
     console.log(dataEl)  
     }
   formEl.reset()
-})  
-
+})

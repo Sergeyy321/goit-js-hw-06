@@ -12,7 +12,8 @@ const images = [
     alt: 'Group of Horses Running',
   },
 ];
-  let ulEl = document.querySelector(".gallery")
+
+ let ulEl = document.querySelector(".gallery")
   // let liEl = document.createElement("li")
   // let imgEl = document.createElement("img")
 
