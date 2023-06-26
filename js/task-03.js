@@ -20,7 +20,7 @@ const images = [
 
 const itemEl = images.map(({ url, alt }) => 
   `<li class=js-item><img src=${url}
-alt=${alt} width=150; height=150;</li> `
+alt='${alt}' width="150" height="150" </li> `
 ).join("")
 console.log(itemEl)
 ulEl.insertAdjacentHTML("afterbegin",itemEl)

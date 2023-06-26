@@ -17,7 +17,8 @@ formEl.addEventListener('submit', function submit(event) {
 password:password.value
 
       }
-    console.log(dataEl)  
+      console.log(dataEl)  
+       formEl.reset()
     }
-  formEl.reset()
+ 
 })
